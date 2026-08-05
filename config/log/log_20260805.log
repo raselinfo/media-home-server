@@ -1,0 +1,410 @@
+[2026-08-05 14:30:55.175 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-08-05 14:30:55.353 +00:00] [INF] [6] Jellyfin.Server.ServerSetupApp.SetupServer: Kestrel is listening on "0.0.0.0"
+[2026-08-05 14:30:55.374 +00:00] [INF] [6] Main: Jellyfin version: "10.11.11"
+[2026-08-05 14:30:55.376 +00:00] [INF] [6] Main: Environment Variables: ["[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_PublishedServerUrl, http://localhost:8096]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_DATA_DIR, /config]"]
+[2026-08-05 14:30:55.377 +00:00] [INF] [6] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2026-08-05 14:30:55.378 +00:00] [INF] [6] Main: Operating system: "Debian GNU/Linux 13 (trixie)"
+[2026-08-05 14:30:55.378 +00:00] [INF] [6] Main: Architecture: Arm64
+[2026-08-05 14:30:55.378 +00:00] [INF] [6] Main: 64-Bit Process: True
+[2026-08-05 14:30:55.378 +00:00] [INF] [6] Main: User Interactive: True
+[2026-08-05 14:30:55.378 +00:00] [INF] [6] Main: Processor count: 10
+[2026-08-05 14:30:55.378 +00:00] [INF] [6] Main: Program data path: "/config"
+[2026-08-05 14:30:55.378 +00:00] [INF] [6] Main: Log directory path: "/config/log"
+[2026-08-05 14:30:55.378 +00:00] [INF] [6] Main: Config directory path: "/config/config"
+[2026-08-05 14:30:55.378 +00:00] [INF] [6] Main: Cache path: "/cache"
+[2026-08-05 14:30:55.379 +00:00] [INF] [6] Main: Temp directory path: "/tmp/jellyfin"
+[2026-08-05 14:30:55.379 +00:00] [INF] [6] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2026-08-05 14:30:55.379 +00:00] [INF] [6] Main: Application directory: "/jellyfin/"
+[2026-08-05 14:30:55.391 +00:00] [INF] [6] Jellyfin.Server.Startup: Storage path `"/config/data"` (Network) successfully checked with "77.3TiB" free which is over the minimum of "2GiB".
+[2026-08-05 14:30:55.391 +00:00] [INF] [6] Jellyfin.Server.Startup: Storage path `"/cache"` (Network) successfully checked with "77.3TiB" free which is over the minimum of "2GiB".
+[2026-08-05 14:30:55.391 +00:00] [INF] [6] Jellyfin.Server.Startup: Storage path `"/config"` (Network) successfully checked with "77.3TiB" free which is over the minimum of "2GiB".
+[2026-08-05 14:30:55.424 +00:00] [INF] [6] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-08-05 14:30:55.464 +00:00] [INF] [6] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Default;Default Timeout=30;Pooling=True"
+[2026-08-05 14:30:55.467 +00:00] [INF] [6] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-08-05 14:30:55.467 +00:00] [INF] [6] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-08-05 14:30:55.500 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Initialise Migration service.
+[2026-08-05 14:30:55.501 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: System initialisation detected. Seed data.
+[2026-08-05 14:30:56.262 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"UpdateNormalizedUsername".
+[2026-08-05 14:30:56.264 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"CleanMusicArtist".
+[2026-08-05 14:30:56.265 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration ef103419-8451-40d8-9f34-d1a8e93a1679-"CreateUserLoggingConfigFile".
+[2026-08-05 14:30:56.266 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration 4124c2cd-e939-4ffb-9be9-9b311c413638-"DisableTranscodingThrottling".
+[2026-08-05 14:30:56.266 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration cf6fabc2-9fbe-4933-84a5-ffe52ef22a58-"FixAudioData".
+[2026-08-05 14:30:56.266 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"FixDates".
+[2026-08-05 14:30:56.267 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"FixLibrarySubtitleDownloadLanguages".
+[2026-08-05 14:30:56.267 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration 615dfa9e-2497-4dbb-a472-61938b752c5b-"FixPlaylistOwner".
+[2026-08-05 14:30:56.267 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration 3793eb59-bc8c-456c-8b9f-bd5a62a42978-"MigrateActivityLogDb".
+[2026-08-05 14:30:56.267 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration 5bd72f41-e6f3-4f60-90aa-09869abe0e22-"MigrateAuthenticationDb".
+[2026-08-05 14:30:56.267 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration 06387815-c3cc-421f-a888-fb5f9992bea8-"MigrateDisplayPreferencesDb".
+[2026-08-05 14:30:56.268 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"MigrateKeyframeData".
+[2026-08-05 14:30:56.268 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"MigrateLibraryDb".
+[2026-08-05 14:30:56.268 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"MigrateLibraryDbCompatibilityCheck".
+[2026-08-05 14:30:56.268 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"MigrateLibraryUserData".
+[2026-08-05 14:30:56.269 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"MigrateRatingLevels".
+[2026-08-05 14:30:56.269 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration 5c4b82a2-f053-4009-bd05-b6fcad82f14c-"MigrateUserDb".
+[2026-08-05 14:30:56.269 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"MoveExtractedFiles".
+[2026-08-05 14:30:56.270 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"RefreshInternalDateModified".
+[2026-08-05 14:30:56.270 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration a81f75e0-8f43-416f-a5e8-516ccab4d8cc-"RemoveDownloadImagesInAdvance".
+[2026-08-05 14:30:56.270 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration acbe17b7-8435-4a83-8b64-6fcf162cb9bd-"RemoveDuplicateExtras".
+[2026-08-05 14:30:56.271 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration 96c156a2-7a13-4b3b-a8b8-fb80c94d20c0-"RemoveDuplicatePlaylistChildren".
+[2026-08-05 14:30:56.271 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration null-"ReseedFolderFlag".
+[2026-08-05 14:30:56.271 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration 9b354818-94d5-4b68-ac49-e35cb85f9d84-"CreateNetworkConfiguration".
+[2026-08-05 14:30:56.271 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration a8e61960-7726-4450-8f3d-82c12daabbcb-"MigrateEncodingOptions".
+[2026-08-05 14:30:56.271 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration a6dcacf4-c057-4ef9-80d3-61cef9ddb4f0-"MigrateMusicBrainzTimeout".
+[2026-08-05 14:30:56.272 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration 4fb5c950-1991-11ee-9b4b-0800200c9a66-"MigrateNetworkConfiguration".
+[2026-08-05 14:30:56.272 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Seed migration e73b777d-cd5c-4e71-957a-b86b3660b7cf-"RenameEnableGroupingIntoCollections".
+[2026-08-05 14:30:56.275 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: Migration system initialisation completed.
+[2026-08-05 14:30:56.279 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage PreInitialisation.
+[2026-08-05 14:30:56.284 +00:00] [INF] [6] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-08-05 14:30:56.291 +00:00] [INF] [6] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2026-08-05 14:30:56.316 +00:00] [INF] [6] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-08-05 14:30:56.316 +00:00] [INF] [6] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-08-05 14:30:56.316 +00:00] [INF] [6] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-08-05 14:30:56.317 +00:00] [INF] [6] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "192.168.117.2"]
+[2026-08-05 14:30:56.317 +00:00] [INF] [6] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-08-05 14:30:56.317 +00:00] [INF] [6] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-08-05 14:30:56.317 +00:00] [INF] [6] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-08-05 14:30:56.414 +00:00] [INF] [6] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Default;Default Timeout=30;Pooling=True"
+[2026-08-05 14:30:56.415 +00:00] [INF] [6] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-08-05 14:30:56.415 +00:00] [INF] [6] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-08-05 14:30:56.419 +00:00] [INF] [6] Main: Prepare system for possible migrations
+[2026-08-05 14:30:56.441 +00:00] [INF] [6] Main: A migration will attempt to modify the jellyfin.db, will attempt to backup the file now.
+[2026-08-05 14:30:56.442 +00:00] [INF] [6] Main: Jellyfin database has been backed up as "20260805023056"
+[2026-08-05 14:30:56.444 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 0 migrations for stage CoreInitialisation.
+[2026-08-05 14:30:56.445 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20200514181226_AddActivityLog"
+[2026-08-05 14:30:56.470 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20200514181226_AddActivityLog" was successfully applied
+[2026-08-05 14:30:56.470 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20200613202153_AddUsers"
+[2026-08-05 14:30:56.512 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20200613202153_AddUsers" was successfully applied
+[2026-08-05 14:30:56.513 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20200728005145_AddDisplayPreferences"
+[2026-08-05 14:30:56.531 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20200728005145_AddDisplayPreferences" was successfully applied
+[2026-08-05 14:30:56.531 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20200905220533_FixDisplayPreferencesIndex"
+[2026-08-05 14:30:56.538 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20200905220533_FixDisplayPreferencesIndex" was successfully applied
+[2026-08-05 14:30:56.538 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20201004171403_AddMaxActiveSessions"
+[2026-08-05 14:30:56.549 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20201004171403_AddMaxActiveSessions" was successfully applied
+[2026-08-05 14:30:56.549 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20201204223655_AddCustomDisplayPreferences"
+[2026-08-05 14:30:56.565 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20201204223655_AddCustomDisplayPreferences" was successfully applied
+[2026-08-05 14:30:56.565 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20210320181425_AddIndexesAndCollations"
+[2026-08-05 14:30:56.582 +00:00] [WRN] [6] Microsoft.EntityFrameworkCore.Migrations: An operation of type '"SqlOperation"' will be attempted while a rebuild of table '"ImageInfos"' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+[2026-08-05 14:30:56.583 +00:00] [WRN] [6] Microsoft.EntityFrameworkCore.Migrations: An operation of type '"SqlOperation"' will be attempted while a rebuild of table '"ImageInfos"' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+[2026-08-05 14:30:56.584 +00:00] [WRN] [6] Microsoft.EntityFrameworkCore.Migrations: An operation of type '"SqlOperation"' will be attempted while a rebuild of table '"Permissions"' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+[2026-08-05 14:30:56.584 +00:00] [WRN] [6] Microsoft.EntityFrameworkCore.Migrations: An operation of type '"SqlOperation"' will be attempted while a rebuild of table '"Permissions"' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+[2026-08-05 14:30:56.584 +00:00] [WRN] [6] Microsoft.EntityFrameworkCore.Migrations: An operation of type '"SqlOperation"' will be attempted while a rebuild of table '"Preferences"' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+[2026-08-05 14:30:56.585 +00:00] [WRN] [6] Microsoft.EntityFrameworkCore.Migrations: An operation of type '"SqlOperation"' will be attempted while a rebuild of table '"Preferences"' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+[2026-08-05 14:30:56.585 +00:00] [WRN] [6] Microsoft.EntityFrameworkCore.Migrations: An operation of type '"SqlOperation"' will be attempted while a rebuild of table '"Users"' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+[2026-08-05 14:30:56.585 +00:00] [WRN] [6] Microsoft.EntityFrameworkCore.Migrations: An operation of type '"SqlOperation"' will be attempted while a rebuild of table '"Users"' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+[2026-08-05 14:30:56.592 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20210320181425_AddIndexesAndCollations" was successfully applied
+[2026-08-05 14:30:56.592 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20210407110544_NullableCustomPrefValue"
+[2026-08-05 14:30:56.603 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20210407110544_NullableCustomPrefValue" was successfully applied
+[2026-08-05 14:30:56.603 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20210814002109_AddDevices"
+[2026-08-05 14:30:56.614 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20210814002109_AddDevices" was successfully applied
+[2026-08-05 14:30:56.614 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20221022080052_AddIndexActivityLogsDateCreated"
+[2026-08-05 14:30:56.622 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20221022080052_AddIndexActivityLogsDateCreated" was successfully applied
+[2026-08-05 14:30:56.622 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20230526173516_RemoveEasyPassword"
+[2026-08-05 14:30:56.635 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20230526173516_RemoveEasyPassword" was successfully applied
+[2026-08-05 14:30:56.635 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20230626233818_AddTrickplayInfos"
+[2026-08-05 14:30:56.646 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20230626233818_AddTrickplayInfos" was successfully applied
+[2026-08-05 14:30:56.646 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20230923170422_UserCastReceiver"
+[2026-08-05 14:30:56.656 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20230923170422_UserCastReceiver" was successfully applied
+[2026-08-05 14:30:56.656 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20240729140605_AddMediaSegments"
+[2026-08-05 14:30:56.665 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20240729140605_AddMediaSegments" was successfully applied
+[2026-08-05 14:30:56.665 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20240928082930_MarkSegmentProviderIdNonNullable"
+[2026-08-05 14:30:56.677 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20240928082930_MarkSegmentProviderIdNonNullable" was successfully applied
+[2026-08-05 14:30:56.678 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20241020103111_LibraryDbMigration"
+[2026-08-05 14:30:56.711 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20241020103111_LibraryDbMigration" was successfully applied
+[2026-08-05 14:30:56.711 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20241111131257_AddedCustomDataKey"
+[2026-08-05 14:30:56.726 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20241111131257_AddedCustomDataKey" was successfully applied
+[2026-08-05 14:30:56.726 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20241111135439_AddedCustomDataKeyKey"
+[2026-08-05 14:30:56.758 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20241111135439_AddedCustomDataKeyKey" was successfully applied
+[2026-08-05 14:30:56.758 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20241112152323_FixAncestorIdConfig"
+[2026-08-05 14:30:56.786 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20241112152323_FixAncestorIdConfig" was successfully applied
+[2026-08-05 14:30:56.786 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20241112232041_FixMediaStreams"
+[2026-08-05 14:30:56.820 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20241112232041_FixMediaStreams" was successfully applied
+[2026-08-05 14:30:56.820 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20241112234144_FixMediaStreams2"
+[2026-08-05 14:30:56.875 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20241112234144_FixMediaStreams2" was successfully applied
+[2026-08-05 14:30:56.875 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20241113133548_EnforceUniqueItemValue"
+[2026-08-05 14:30:56.893 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20241113133548_EnforceUniqueItemValue" was successfully applied
+[2026-08-05 14:30:56.893 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250202021306_FixedCollation"
+[2026-08-05 14:30:56.924 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250202021306_FixedCollation" was successfully applied
+[2026-08-05 14:30:56.924 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250204092455_MakeStartEndDateNullable"
+[2026-08-05 14:30:56.957 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250204092455_MakeStartEndDateNullable" was successfully applied
+[2026-08-05 14:30:56.958 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250214031148_ChannelIdGuid"
+[2026-08-05 14:30:56.973 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250214031148_ChannelIdGuid" was successfully applied
+[2026-08-05 14:30:56.973 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250326065026_AddInheritedParentalRatingSubValue"
+[2026-08-05 14:30:56.992 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250326065026_AddInheritedParentalRatingSubValue" was successfully applied
+[2026-08-05 14:30:56.992 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250327101120_AddKeyframeData"
+[2026-08-05 14:30:57.011 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250327101120_AddKeyframeData" was successfully applied
+[2026-08-05 14:30:57.011 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250327171413_AddHdr10PlusFlag"
+[2026-08-05 14:30:57.027 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250327171413_AddHdr10PlusFlag" was successfully applied
+[2026-08-05 14:30:57.027 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250331182844_FixAttachmentMigration"
+[2026-08-05 14:30:57.054 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250331182844_FixAttachmentMigration" was successfully applied
+[2026-08-05 14:30:57.054 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250401142247_FixAncestors"
+[2026-08-05 14:30:57.068 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250401142247_FixAncestors" was successfully applied
+[2026-08-05 14:30:57.068 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250405075612_FixItemValuesIndices"
+[2026-08-05 14:30:57.088 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250405075612_FixItemValuesIndices" was successfully applied
+[2026-08-05 14:30:57.088 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250609115616_DetachUserDataInsteadOfDelete"
+[2026-08-05 14:30:57.123 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250609115616_DetachUserDataInsteadOfDelete" was successfully applied
+[2026-08-05 14:30:57.123 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250622170802_BaseItemImageInfoDateModifiedNullable"
+[2026-08-05 14:30:57.153 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250622170802_BaseItemImageInfoDateModifiedNullable" was successfully applied
+[2026-08-05 14:30:57.153 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250714044826_ResetJournalMode"
+[2026-08-05 14:30:57.169 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250714044826_ResetJournalMode" was successfully applied
+[2026-08-05 14:30:57.169 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250913211637_AddProperParentChildRelationBaseItemWithCascade"
+[2026-08-05 14:30:57.210 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250913211637_AddProperParentChildRelationBaseItemWithCascade" was successfully applied
+[2026-08-05 14:30:57.210 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20250925203415_ExtendPeopleMapKey"
+[2026-08-05 14:30:57.239 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20250925203415_ExtendPeopleMapKey" was successfully applied
+[2026-08-05 14:30:57.239 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20260522092303_AddNormalizedUsername"
+[2026-08-05 14:30:57.257 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20260522092303_AddNormalizedUsername" was successfully applied
+[2026-08-05 14:30:57.257 +00:00] [INF] [6] InternalDatabaseMigration: Perform migration "20260524120336_AddUniqueNormalizedUsernameIndex"
+[2026-08-05 14:30:57.273 +00:00] [INF] [6] InternalDatabaseMigration: Migration "20260524120336_AddUniqueNormalizedUsernameIndex" was successfully applied
+[2026-08-05 14:30:57.384 +00:00] [INF] [6] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2026-08-05 14:30:57.384 +00:00] [INF] [6] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-08-05 14:30:57.388 +00:00] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.11.11.0"
+[2026-08-05 14:30:57.389 +00:00] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.11.11.0"
+[2026-08-05 14:30:57.389 +00:00] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.11.11.0"
+[2026-08-05 14:30:57.397 +00:00] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.11.11.0"
+[2026-08-05 14:30:57.397 +00:00] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.11.11.0"
+[2026-08-05 14:30:57.433 +00:00] [INF] [6] Jellyfin.Server.Migrations.JellyfinMigrationService: There are 5 migrations for stage AppInitialisation.
+[2026-08-05 14:30:57.435 +00:00] [INF] [6] InternalCodeMigration: Perform migration "20250420090000_AddDefaultPluginRepository"
+[2026-08-05 14:30:57.437 +00:00] [INF] [6] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2026-08-05 14:30:57.438 +00:00] [INF] [6] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-08-05 14:30:57.439 +00:00] [INF] [6] InternalCodeMigration: Migration "20250420090000_AddDefaultPluginRepository" was successfully applied
+[2026-08-05 14:30:57.439 +00:00] [INF] [6] InternalCodeMigration: Perform migration "20250420110000_ReaddDefaultPluginRepository"
+[2026-08-05 14:30:57.440 +00:00] [INF] [6] InternalCodeMigration: Migration "20250420110000_ReaddDefaultPluginRepository" was successfully applied
+[2026-08-05 14:30:57.440 +00:00] [INF] [6] InternalCodeMigration: Perform migration "20250420160000_AddDefaultCastReceivers"
+[2026-08-05 14:30:57.440 +00:00] [INF] [6] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2026-08-05 14:30:57.441 +00:00] [INF] [6] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-08-05 14:30:57.441 +00:00] [INF] [6] InternalCodeMigration: Migration "20250420160000_AddDefaultCastReceivers" was successfully applied
+[2026-08-05 14:30:57.441 +00:00] [INF] [6] InternalCodeMigration: Perform migration "20250420170000_UpdateDefaultPluginRepository"
+[2026-08-05 14:30:57.441 +00:00] [INF] [6] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2026-08-05 14:30:57.442 +00:00] [INF] [6] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-08-05 14:30:57.442 +00:00] [INF] [6] InternalCodeMigration: Migration "20250420170000_UpdateDefaultPluginRepository" was successfully applied
+[2026-08-05 14:30:57.442 +00:00] [INF] [6] InternalCodeMigration: Perform migration "20250420230000_MoveTrickplayFiles"
+[2026-08-05 14:30:57.746 +00:00] [INF] [6] Jellyfin.Server.Migrations.Routines.MoveTrickplayFiles: Checked: 5000 - Moved: 0 - Time: 00:00:00.3026115
+[2026-08-05 14:30:57.747 +00:00] [INF] [6] Jellyfin.Server.Migrations.Routines.MoveTrickplayFiles: Moved 0 items in 00:00:00.3037765
+[2026-08-05 14:30:57.747 +00:00] [INF] [6] InternalCodeMigration: Migration "20250420230000_MoveTrickplayFiles" was successfully applied
+[2026-08-05 14:30:57.748 +00:00] [INF] [6] Main: Attempt to cleanup JellyfinDb backup.
+[2026-08-05 14:30:57.767 +00:00] [INF] [11] Main: Kestrel is listening on "0.0.0.0"
+[2026-08-05 14:30:58.131 +00:00] [WRN] [11] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2026-08-05 14:30:58.399 +00:00] [INF] [11] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2026-08-05 14:30:58.406 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2026-08-06 03:00:00.000 +00:00, which is 12:29:01.5936963 from now.
+[2026-08-05 14:30:58.408 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-08-06 02:00:00.000 +00:00, which is 11:29:01.5912908 from now.
+[2026-08-05 14:30:58.687 +00:00] [INF] [11] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "7.1.4"
+[2026-08-05 14:30:58.768 +00:00] [INF] [11] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_rkmpp", "h264", "h264_rkmpp", "h264_cuvid", "hevc", "hevc_rkmpp", "hevc_cuvid", "mpeg1_rkmpp", "mpeg2video", "mpeg2_rkmpp", "mpeg2_cuvid", "mpeg4", "mpeg4_rkmpp", "mpeg4_cuvid", "msmpeg4", "vc1_cuvid", "vp8", "vp8_rkmpp", "libvpx", "vp8_cuvid", "vp9", "vp9_rkmpp", "libvpx-vp9", "vp9_cuvid", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2026-08-05 14:30:58.781 +00:00] [INF] [11] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "libx264", "h264_nvenc", "h264_v4l2m2m", "h264_rkmpp", "libx265", "hevc_nvenc", "hevc_rkmpp", "mjpeg_rkmpp", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2026-08-05 14:30:58.795 +00:00] [INF] [11] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "bwdif_opencl", "hwupload_cuda", "overlay_opencl", "overlay_cuda", "overlay_rkrga", "scale_cuda", "scale_opencl", "scale_rkrga", "tonemapx", "tonemap_cuda", "tonemap_opencl", "transpose_cuda", "transpose_opencl", "vpp_rkrga", "yadif_cuda", "yadif_opencl", "zscale", "alphasrc"]
+[2026-08-05 14:30:58.842 +00:00] [WRN] [11] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: "overlay_vaapi" with option "Action to take when encountering EOF from secondary input" is not available
+[2026-08-05 14:30:58.851 +00:00] [WRN] [11] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: "overlay_vulkan" with option "Action to take when encountering EOF from secondary input" is not available
+[2026-08-05 14:30:58.934 +00:00] [INF] [11] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "drm", "opencl", "rkmpp"]
+[2026-08-05 14:31:01.470 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2026-08-05 14:31:01.480 +00:00] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2026-08-05 14:31:04.795 +00:00] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 3 seconds
+[2026-08-05 14:31:07.705 +00:00] [INF] [11] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2026-08-05 14:31:07.711 +00:00] [INF] [11] Emby.Server.Implementations.ApplicationHost: ServerId: "4b423675f6674c6b86d1ba296b5f289a"
+[2026-08-05 14:31:07.711 +00:00] [INF] [11] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2026-08-05 14:31:07.711 +00:00] [INF] [11] Main: Startup complete 0:00:12.8001022
+[2026-08-05 14:31:56.545 +00:00] [INF] [16] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2026-08-05 14:31:56.557 +00:00] [INF] [16] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-08-05 14:31:56.664 +00:00] [WRN] [11] Jellyfin.Server.Implementations.Users.UserManager: No users, creating one with username "root"
+[2026-08-05 14:31:56.896 +00:00] [WRN] [11] Microsoft.EntityFrameworkCore.Query: The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+[2026-08-05 14:32:05.207 +00:00] [INF] [16] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2026-08-05 14:32:05.215 +00:00] [INF] [16] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-08-05 14:32:06.288 +00:00] [INF] [16] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-08-05 14:32:06.289 +00:00] [INF] [16] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-08-05 14:32:06.289 +00:00] [INF] [16] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-08-05 14:32:06.289 +00:00] [INF] [16] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "192.168.117.2"]
+[2026-08-05 14:32:06.289 +00:00] [INF] [16] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-08-05 14:32:06.289 +00:00] [INF] [16] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-08-05 14:32:06.289 +00:00] [INF] [16] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-08-05 14:32:07.472 +00:00] [INF] [29] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2026-08-05 14:32:07.473 +00:00] [INF] [29] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-08-05 14:32:07.480 +00:00] [INF] [16] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-08-05 14:32:07.737 +00:00] [WRN] [16] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:32:07.779 +00:00] [WRN] [16] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:32:08.042 +00:00] [INF] [16] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2026-08-05 14:32:13.936 +00:00] [INF] [26] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "root" has succeeded.
+[2026-08-05 14:32:13.937 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "root": 0/0
+[2026-08-05 14:32:13.939 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 72c8f6fc-873d-40dd-b0af-40cb09763bb6
+[2026-08-05 14:32:14.169 +00:00] [INF] [27] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-05 14:33:33.848 +00:00] [WRN] [6] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:33:33.912 +00:00] [INF] [22] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-08-05 14:33:33.947 +00:00] [WRN] [22] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:33:33.963 +00:00] [WRN] [21] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:34:07.855 +00:00] [INF] [26] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-05 14:34:08.224 +00:00] [INF] [21] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-05 14:34:13.356 +00:00] [INF] [31] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:34:13.701 +00:00] [ERR] [26] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Could not find file '/media/tutorials/nestjs-course/1. NestJS Masterclass Introduction.mp4'". URL "GET" "/Videos/fbe54b889e367ab5c641966664254243/stream.mp4".
+[2026-08-05 14:34:13.841 +00:00] [INF] [32] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:34:13.992 +00:00] [INF] [26] Jellyfin.Api.Controllers.DynamicHlsController: Current HLS implementation doesn't support non-keyframe breaks but one is requested, ignoring that request
+[2026-08-05 14:34:14.012 +00:00] [INF] [26] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: "/usr/lib/jellyfin-ffmpeg/ffmpeg" "-analyzeduration 200M -probesize 1G  -i file:\"/media/tutorials/nestjs-course/1. NestJS Masterclass Introduction.mp4\" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 libx264 -preset veryfast -crf 23 -maxrate 5759296 -bufsize 11518592 -profile:v:0 high -level 40 -x264opts:0 subme=0:me_range=16:rc_lookahead=10:me=hex:open_gop=0 -force_key_frames:0 \"expr:gte(t,n_forced*3)\" -sc_threshold:v:0 0 -vf \"setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709,scale=trunc(min(max(iw\,ih*a)\,min(1920\,1080*a))/2)*2:trunc(min(max(iw/a\,ih)\,min(1920/a\,1080))/2)*2,format=yuv420p\" -codec:a:0 copy -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 3 -hls_segment_type fmp4 -hls_fmp4_init_filename \"7fcdd16dc6c6d0637e9c638d84a3f37a-1.mp4\" -start_number 0 -hls_segment_filename \"/cache/transcodes/7fcdd16dc6c6d0637e9c638d84a3f37a%d.mp4\" -hls_playlist_type vod -hls_list_size 0 -hls_segment_options movflags=+frag_discont -y \"/cache/transcodes/7fcdd16dc6c6d0637e9c638d84a3f37a.m3u8\""
+[2026-08-05 14:34:14.032 +00:00] [ERR] [32] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: FFmpeg exited with code 254
+[2026-08-05 14:34:14.133 +00:00] [ERR] [31] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request. URL "GET" "/videos/fbe54b88-9e36-7ab5-c641-966664254243/hls1/main/-1.mp4".
+MediaBrowser.Common.FfmpegException: FFmpeg exited with code 254
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.StartFfMpeg(StreamState state, String outputPath, String commandLineArguments, Guid userId, TranscodingJobType transcodingJobType, CancellationTokenSource cancellationTokenSource, String workingDirectory)
+   at Jellyfin.Api.Controllers.DynamicHlsController.GetDynamicSegment(StreamingRequestDto streamingRequest, Int32 segmentId)
+   at Jellyfin.Api.Controllers.DynamicHlsController.GetHlsVideoSegment(Guid itemId, String playlistId, Int32 segmentId, String container, Int64 runtimeTicks, Int64 actualSegmentLengthTicks, Nullable`1 static, String params, String tag, String deviceProfileId, String playSessionId, String segmentContainer, Nullable`1 segmentLength, Nullable`1 minSegments, String mediaSourceId, String deviceId, String audioCodec, Nullable`1 enableAutoStreamCopy, Nullable`1 allowVideoStreamCopy, Nullable`1 allowAudioStreamCopy, Nullable`1 breakOnNonKeyFrames, Nullable`1 audioSampleRate, Nullable`1 maxAudioBitDepth, Nullable`1 audioBitRate, Nullable`1 audioChannels, Nullable`1 maxAudioChannels, String profile, String level, Nullable`1 framerate, Nullable`1 maxFramerate, Nullable`1 copyTimestamps, Nullable`1 startTimeTicks, Nullable`1 width, Nullable`1 height, Nullable`1 maxWidth, Nullable`1 maxHeight, Nullable`1 videoBitRate, Nullable`1 subtitleStreamIndex, Nullable`1 subtitleMethod, Nullable`1 maxRefFrames, Nullable`1 maxVideoBitDepth, Nullable`1 requireAvc, Nullable`1 deInterlace, Nullable`1 requireNonAnamorphic, Nullable`1 transcodingMaxAudioChannels, Nullable`1 cpuCoreLimit, String liveStreamId, Nullable`1 enableMpegtsM2TsMode, String videoCodec, String subtitleCodec, String transcodeReasons, Nullable`1 audioStreamIndex, Nullable`1 videoStreamIndex, Nullable`1 context, Dictionary`2 streamOptions, Boolean enableAudioVbrEncoding, Boolean alwaysBurnInSubtitleWhenTranscoding)
+   at lambda_method7122(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2026-08-05 14:34:14.172 +00:00] [INF] [31] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:34:14.189 +00:00] [INF] [32] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: Deleting partial stream file(s) "/cache/transcodes/7fcdd16dc6c6d0637e9c638d84a3f37a.m3u8"
+[2026-08-05 14:34:14.239 +00:00] [INF] [32] Jellyfin.Api.Controllers.DynamicHlsController: Current HLS implementation doesn't support non-keyframe breaks but one is requested, ignoring that request
+[2026-08-05 14:34:14.246 +00:00] [INF] [32] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: "/usr/lib/jellyfin-ffmpeg/ffmpeg" "-analyzeduration 200M -probesize 1G  -i file:\"/media/tutorials/nestjs-course/1. NestJS Masterclass Introduction.mp4\" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 libx264 -preset veryfast -crf 23 -maxrate 5759296 -bufsize 11518592 -profile:v:0 high -level 40 -x264opts:0 subme=0:me_range=16:rc_lookahead=10:me=hex:open_gop=0 -force_key_frames:0 \"expr:gte(t,n_forced*3)\" -sc_threshold:v:0 0 -vf \"setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709,scale=trunc(min(max(iw\,ih*a)\,min(1920\,1080*a))/2)*2:trunc(min(max(iw/a\,ih)\,min(1920/a\,1080))/2)*2,format=yuv420p\" -codec:a:0 libfdk_aac -ac 2 -ab 62695 -ar 48000 -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 3 -hls_segment_type fmp4 -hls_fmp4_init_filename \"095cc3fc7d1a657d5ce0de8dd5bb3bad-1.mp4\" -start_number 0 -hls_segment_filename \"/cache/transcodes/095cc3fc7d1a657d5ce0de8dd5bb3bad%d.mp4\" -hls_playlist_type vod -hls_list_size 0 -hls_segment_options movflags=+frag_discont -y \"/cache/transcodes/095cc3fc7d1a657d5ce0de8dd5bb3bad.m3u8\""
+[2026-08-05 14:34:14.258 +00:00] [ERR] [31] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: FFmpeg exited with code 254
+[2026-08-05 14:34:14.359 +00:00] [ERR] [32] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request. URL "GET" "/videos/fbe54b88-9e36-7ab5-c641-966664254243/hls1/main/-1.mp4".
+MediaBrowser.Common.FfmpegException: FFmpeg exited with code 254
+   at MediaBrowser.MediaEncoding.Transcoding.TranscodeManager.StartFfMpeg(StreamState state, String outputPath, String commandLineArguments, Guid userId, TranscodingJobType transcodingJobType, CancellationTokenSource cancellationTokenSource, String workingDirectory)
+   at Jellyfin.Api.Controllers.DynamicHlsController.GetDynamicSegment(StreamingRequestDto streamingRequest, Int32 segmentId)
+   at Jellyfin.Api.Controllers.DynamicHlsController.GetHlsVideoSegment(Guid itemId, String playlistId, Int32 segmentId, String container, Int64 runtimeTicks, Int64 actualSegmentLengthTicks, Nullable`1 static, String params, String tag, String deviceProfileId, String playSessionId, String segmentContainer, Nullable`1 segmentLength, Nullable`1 minSegments, String mediaSourceId, String deviceId, String audioCodec, Nullable`1 enableAutoStreamCopy, Nullable`1 allowVideoStreamCopy, Nullable`1 allowAudioStreamCopy, Nullable`1 breakOnNonKeyFrames, Nullable`1 audioSampleRate, Nullable`1 maxAudioBitDepth, Nullable`1 audioBitRate, Nullable`1 audioChannels, Nullable`1 maxAudioChannels, String profile, String level, Nullable`1 framerate, Nullable`1 maxFramerate, Nullable`1 copyTimestamps, Nullable`1 startTimeTicks, Nullable`1 width, Nullable`1 height, Nullable`1 maxWidth, Nullable`1 maxHeight, Nullable`1 videoBitRate, Nullable`1 subtitleStreamIndex, Nullable`1 subtitleMethod, Nullable`1 maxRefFrames, Nullable`1 maxVideoBitDepth, Nullable`1 requireAvc, Nullable`1 deInterlace, Nullable`1 requireNonAnamorphic, Nullable`1 transcodingMaxAudioChannels, Nullable`1 cpuCoreLimit, String liveStreamId, Nullable`1 enableMpegtsM2TsMode, String videoCodec, String subtitleCodec, String transcodeReasons, Nullable`1 audioStreamIndex, Nullable`1 videoStreamIndex, Nullable`1 context, Dictionary`2 streamOptions, Boolean enableAudioVbrEncoding, Boolean alwaysBurnInSubtitleWhenTranscoding)
+   at lambda_method7122(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Jellyfin.Api.Middleware.ServerStartupMessageMiddleware.Invoke(HttpContext httpContext, IServerApplicationHost serverApplicationHost, ILocalizationManager localizationManager)
+   at Jellyfin.Api.Middleware.WebSocketHandlerMiddleware.Invoke(HttpContext httpContext, IWebSocketManager webSocketManager)
+   at Jellyfin.Api.Middleware.IPBasedAccessValidationMiddleware.Invoke(HttpContext httpContext, INetworkManager networkManager)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.QueryStringDecodingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.ReDoc.ReDocMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jellyfin.Api.Middleware.RobotsRedirectionMiddleware.Invoke(HttpContext httpContext)
+   at Jellyfin.Api.Middleware.LegacyEmbyRouteRewriteMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Jellyfin.Api.Middleware.ResponseTimeMiddleware.Invoke(HttpContext context, IServerConfigurationManager serverConfigurationManager)
+   at Jellyfin.Api.Middleware.ExceptionMiddleware.Invoke(HttpContext context)
+[2026-08-05 14:34:14.441 +00:00] [INF] [31] MediaBrowser.MediaEncoding.Transcoding.TranscodeManager: Deleting partial stream file(s) "/cache/transcodes/095cc3fc7d1a657d5ce0de8dd5bb3bad.m3u8"
+[2026-08-05 14:34:15.947 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "1. NestJS Masterclass Introduction". Stopped at "0" ms
+[2026-08-05 14:34:41.652 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 1 minute(s) and 7 seconds
+[2026-08-05 14:34:41.781 +00:00] [INF] [33] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/tutorials/nestjs-course"
+[2026-08-05 14:35:11.504 +00:00] [INF] [20] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/tutorials/nestjs-course"
+[2026-08-05 14:35:11.508 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-08-05 14:35:11.567 +00:00] [WRN] [22] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:35:11.587 +00:00] [WRN] [22] Microsoft.EntityFrameworkCore.Query: Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+[2026-08-05 14:35:11.775 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:35:11.988 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "1. NestJS Masterclass Introduction", Path: "/media/tutorials/nestjs-course/1. NestJS Masterclass Introduction.mp4", Id: fbe54b88-9e36-7ab5-c641-966664254243
+[2026-08-05 14:35:12.052 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "2. What Will We Build in This Course", Path: "/media/tutorials/nestjs-course/2. What Will We Build in This Course.mp4", Id: fc5ab2b1-e76d-6452-e6d4-2d30d31b9207
+[2026-08-05 14:35:12.074 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "3. What is NestJS", Path: "/media/tutorials/nestjs-course/3. What is NestJS.mp4", Id: 1402bbec-d52b-8724-7be9-81121b25fa2d
+[2026-08-05 14:35:12.094 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "4. Setting Up The Development Enviroment", Path: "/media/tutorials/nestjs-course/4. Setting Up The Development Enviroment.mp4", Id: 4c6bbc3f-45b6-fa0e-2fa0-2b3257b964d0
+[2026-08-05 14:35:12.114 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "5. Installing NestJS CLI", Path: "/media/tutorials/nestjs-course/5. Installing NestJS CLI.mp4", Id: 36a2ad9c-cddd-8c11-58be-22f58357a1d6
+[2026-08-05 14:35:12.135 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "6. Creating Our First NestJs Application", Path: "/media/tutorials/nestjs-course/6. Creating Our First NestJs Application.mp4", Id: c92081e5-298f-aa5a-a7a2-3d59af062898
+[2026-08-05 14:35:12.162 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "7. Boilerplate Code In NestJs", Path: "/media/tutorials/nestjs-course/7. Boilerplate Code In NestJs.mp4", Id: 4597a6f6-2467-50a0-c105-7fec9b67b39a
+[2026-08-05 14:35:12.203 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Video", Name: "8. Best Learning Path For The Course", Path: "/media/tutorials/nestjs-course/8. Best Learning Path For The Course.mp4", Id: c28be0fe-3852-495d-38d4-4dfabf302f6d
+[2026-08-05 14:35:14.947 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 3 seconds
+[2026-08-05 14:35:15.021 +00:00] [INF] [32] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/tutorials/nestjs-course"
+[2026-08-05 14:37:13.134 +00:00] [INF] [27] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/tutorials/nestjs-course"
+[2026-08-05 14:37:13.170 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:37:13.170 +00:00] [INF] [30] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Folder", Name: "nestjs-course", Path: "/media/tutorials/nestjs-course", Id: a45aeb21-bdcb-186b-b2b8-167779374d14
+[2026-08-05 14:37:13.744 +00:00] [INF] [16] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-08-05 14:37:13.749 +00:00] [WRN] [16] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:37:13.751 +00:00] [WRN] [16] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:37:13.755 +00:00] [INF] [16] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2026-08-05 14:37:46.799 +00:00] [WRN] [16] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:37:46.830 +00:00] [INF] [24] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-08-05 14:37:46.840 +00:00] [WRN] [24] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:37:46.849 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-05 14:38:08.550 +00:00] [INF] [4] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:38:47.457 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 1 minute(s) and 0 seconds
+[2026-08-05 14:38:47.538 +00:00] [INF] [16] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/tutorials/nestjs-course"
+[2026-08-05 14:39:19.995 +00:00] [INF] [31] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "1. NestJS Masterclass Introduction". Stopped at "68574" ms
+[2026-08-05 14:39:41.443 +00:00] [INF] [20] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2026-08-05 14:39:41.445 +00:00] [ERR] [20] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Invalid token". URL "GET" "/socket".
+[2026-08-05 14:41:50.175 +00:00] [INF] [36] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "root" has succeeded.
+[2026-08-05 14:41:50.176 +00:00] [INF] [36] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "root": 1/0
+[2026-08-05 14:41:50.176 +00:00] [INF] [36] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 72c8f6fc-873d-40dd-b0af-40cb09763bb6
+[2026-08-05 14:41:52.285 +00:00] [INF] [36] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-05 14:42:10.471 +00:00] [INF] [32] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:44:08.147 +00:00] [INF] [33] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "1. NestJS Masterclass Introduction". Stopped at "195285" ms
+[2026-08-05 14:44:25.243 +00:00] [WRN] [33] Microsoft.EntityFrameworkCore.Query: Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+[2026-08-05 14:44:25.826 +00:00] [INF] [23] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:44:40.891 +00:00] [INF] [23] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "3. What is NestJS". Stopped at "11428" ms
+[2026-08-05 14:44:40.968 +00:00] [INF] [33] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:44:42.834 +00:00] [INF] [35] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "8. Best Learning Path For The Course". Stopped at "792" ms
+[2026-08-05 14:44:42.961 +00:00] [INF] [34] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:44:46.680 +00:00] [INF] [35] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "3. What is NestJS". Stopped at "2265" ms
+[2026-08-05 14:45:20.994 +00:00] [INF] [32] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:45:30.276 +00:00] [INF] [33] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "2. What Will We Build in This Course". Stopped at "68513" ms
+[2026-08-05 14:45:33.062 +00:00] [INF] [33] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:45:36.454 +00:00] [INF] [32] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "2. What Will We Build in This Course". Stopped at "2154" ms
+[2026-08-05 14:45:36.551 +00:00] [INF] [32] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:45:41.584 +00:00] [INF] [34] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "6. Creating Our First NestJs Application". Stopped at "3342" ms
+[2026-08-05 14:45:41.718 +00:00] [INF] [32] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:45:44.364 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "1. NestJS Masterclass Introduction". Stopped at "1459" ms
+[2026-08-05 14:45:46.307 +00:00] [INF] [34] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-05 14:45:49.950 +00:00] [INF] [33] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-05 14:46:12.551 +00:00] [INF] [26] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:46:15.841 +00:00] [INF] [24] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "1. NestJS Masterclass Introduction". Stopped at "2064" ms
+[2026-08-05 14:46:15.944 +00:00] [INF] [26] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:46:17.699 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "2. What Will We Build in This Course". Stopped at "904" ms
+[2026-08-05 14:46:17.762 +00:00] [INF] [33] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:46:20.059 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "3. What is NestJS". Stopped at "1096" ms
+[2026-08-05 14:46:20.135 +00:00] [INF] [11] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:46:20.635 +00:00] [INF] [11] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "2. What Will We Build in This Course". Stopped at "0" ms
+[2026-08-05 14:46:20.787 +00:00] [INF] [11] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:46:22.272 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "2. What Will We Build in This Course". Stopped at "785" ms
+[2026-08-05 14:47:59.668 +00:00] [INF] [24] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-05 14:48:02.571 +00:00] [INF] [21] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-05 14:49:03.006 +00:00] [WRN] [21] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-05 14:49:03.020 +00:00] [INF] [21] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-05 14:49:38.413 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2026-08-05 14:49:38.416 +00:00] [ERR] [25] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Invalid token". URL "GET" "/socket".
+[2026-08-05 14:50:20.687 +00:00] [WRN] [35] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-05 14:50:20.771 +00:00] [INF] [35] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-05 14:52:18.291 +00:00] [INF] [35] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2026-08-05 14:52:22.306 +00:00] [INF] [38] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-05 14:52:35.690 +00:00] [INF] [35] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-05 14:54:40.406 +00:00] [INF] [43] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 14:54:51.368 +00:00] [INF] [38] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "1. NestJS Masterclass Introduction". Stopped at "9192" ms
+[2026-08-05 14:56:16.986 +00:00] [WRN] [11] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-05 14:56:17.001 +00:00] [INF] [11] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-05 14:56:26.015 +00:00] [INF] [42] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-05 14:56:48.699 +00:00] [INF] [25] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-05 14:57:10.438 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-05 14:59:38.813 +00:00] [INF] [41] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-05 15:00:50.418 +00:00] [WRN] [37] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-05 15:00:50.490 +00:00] [INF] [37] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-05 15:17:10.181 +00:00] [INF] [46] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-05 15:17:14.901 +00:00] [INF] [3] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-05 15:17:14.938 +00:00] [ERR] [6] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Unexpected end of request content". URL "POST" "/Sessions/Playing/Stopped".
+[2026-08-05 15:17:15.637 +00:00] [INF] [6] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request

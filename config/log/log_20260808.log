@@ -1,0 +1,233 @@
+[2026-08-08 01:57:39.727 +00:00] [INF] [181] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "5. What is a REST API". Stopped at "688929" ms
+[2026-08-08 02:01:57.070 +00:00] [INF] [212] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 02:08:33.092 +00:00] [INF] [210] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 02:12:21.088 +00:00] [INF] [210] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 02:16:09.088 +00:00] [INF] [195] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 02:16:55.337 +00:00] [INF] [194] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 02:16:55.409 +00:00] [ERR] [194] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Unexpected end of request content". URL "POST" "/Sessions/Playing/Stopped".
+[2026-08-08 03:03:44.561 +00:00] [INF] [231] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 03:03:47.314 +00:00] [WRN] [229] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 03:03:47.316 +00:00] [INF] [229] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 03:03:47.457 +00:00] [INF] [228] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 03:04:35.461 +00:00] [INF] [230] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 03:05:59.465 +00:00] [INF] [236] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 03:06:11.462 +00:00] [INF] [228] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2026-08-08 03:07:09.483 +00:00] [WRN] [236] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 03:07:09.505 +00:00] [INF] [236] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 03:40:48.722 +00:00] [INF] [55] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 03:41:06.245 +00:00] [INF] [63] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 03:52:45.642 +00:00] [INF] [63] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 03:52:46.059 +00:00] [INF] [65] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 03:56:12.763 +00:00] [INF] [70] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 04:00:00.763 +00:00] [INF] [70] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 04:04:36.765 +00:00] [INF] [111] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 04:08:24.766 +00:00] [INF] [111] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 04:10:12.764 +00:00] [INF] [113] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 04:10:13.802 +00:00] [WRN] [116] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 04:10:13.826 +00:00] [INF] [116] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 06:56:17.226 +00:00] [INF] [119] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-08-08 06:56:18.375 +00:00] [INF] [119] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-08-08 06:56:18.375 +00:00] [INF] [119] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 1 seconds
+[2026-08-08 07:00:35.800 +00:00] [INF] [63] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "root" has succeeded.
+[2026-08-08 07:00:35.801 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "root": 0/0
+[2026-08-08 07:00:35.801 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 72c8f6fc-873d-40dd-b0af-40cb09763bb6
+[2026-08-08 07:00:36.645 +00:00] [INF] [68] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 07:01:03.230 +00:00] [INF] [65] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:01:14.503 +00:00] [INF] [68] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "6. Setting Up Postman and httpYac". Stopped at "9266" ms
+[2026-08-08 07:07:29.230 +00:00] [INF] [115] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:08:47.623 +00:00] [INF] [70] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "6. Setting Up Postman and httpYac". Stopped at "283308" ms
+[2026-08-08 07:09:01.721 +00:00] [WRN] [118] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 07:09:01.723 +00:00] [INF] [118] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 07:09:10.414 +00:00] [INF] [70] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 07:09:36.429 +00:00] [INF] [66] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:11:25.282 +00:00] [INF] [66] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "6. Setting Up Postman and httpYac". Stopped at "401018" ms
+[2026-08-08 07:11:39.928 +00:00] [INF] [68] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:11:47.246 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "6. Setting Up Postman and httpYac". Stopped at "5316" ms
+[2026-08-08 07:11:54.827 +00:00] [INF] [66] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:12:14.231 +00:00] [INF] [66] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "1. What are Modules". Stopped at "11329" ms
+[2026-08-08 07:12:33.612 +00:00] [INF] [123] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:16:26.285 +00:00] [INF] [71] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "7. Creating Controllers". Stopped at "398983" ms
+[2026-08-08 07:16:29.679 +00:00] [INF] [122] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:17:50.120 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "7. Creating Controllers". Stopped at "506666" ms
+[2026-08-08 07:18:08.851 +00:00] [INF] [121] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:21:35.252 +00:00] [INF] [71] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "8. Working With Routing Decorators". Stopped at "301184" ms
+[2026-08-08 07:21:54.037 +00:00] [INF] [71] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:29:26.410 +00:00] [INF] [121] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "9. Params, Query and Body". Stopped at "784725" ms
+[2026-08-08 07:29:30.591 +00:00] [INF] [61] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:32:26.545 +00:00] [INF] [125] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "9. Params, Query and Body". Stopped at "949029" ms
+[2026-08-08 07:32:38.323 +00:00] [INF] [71] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:35:52.107 +00:00] [INF] [65] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "11. Additional Request Components". Stopped at "292351" ms
+[2026-08-08 07:36:01.482 +00:00] [INF] [121] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:38:20.430 +00:00] [INF] [122] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "12. Providers in NestJS". Stopped at "234154" ms
+[2026-08-08 07:38:45.758 +00:00] [INF] [66] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:39:05.822 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "1. What are Pipes". Stopped at "21498" ms
+[2026-08-08 07:39:09.798 +00:00] [INF] [63] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:42:11.585 +00:00] [WRN] [66] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 07:42:11.588 +00:00] [INF] [66] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 07:47:38.539 +00:00] [INF] [71] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "1. What are Pipes". Stopped at "226832" ms
+[2026-08-08 07:48:12.187 +00:00] [INF] [108] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 07:48:14.776 +00:00] [INF] [108] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 07:48:33.329 +00:00] [WRN] [125] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 07:48:33.329 +00:00] [WRN] [57] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 07:48:33.333 +00:00] [INF] [57] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 07:48:33.483 +00:00] [INF] [125] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 07:48:42.622 +00:00] [INF] [125] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 07:49:04.167 +00:00] [INF] [123] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:51:31.236 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "1. What are Pipes". Stopped at "362154" ms
+[2026-08-08 07:51:40.109 +00:00] [INF] [123] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:53:49.878 +00:00] [INF] [118] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "2. Validation and Transformation Needs". Stopped at "218752" ms
+[2026-08-08 07:54:04.106 +00:00] [INF] [87] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:55:59.348 +00:00] [INF] [118] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "2. Validation and Transformation Needs". Stopped at "218752" ms
+[2026-08-08 07:56:06.096 +00:00] [INF] [108] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 07:58:07.699 +00:00] [INF] [80] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "3. Validating Params with Built-in Pipes". Stopped at "172502" ms
+[2026-08-08 07:58:15.209 +00:00] [INF] [63] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:01:43.464 +00:00] [INF] [80] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "3. Validating Params with Built-in Pipes". Stopped at "345856" ms
+[2026-08-08 08:01:54.472 +00:00] [INF] [123] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:04:44.491 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "4. Validating Query Params". Stopped at "272166" ms
+[2026-08-08 08:04:49.491 +00:00] [INF] [63] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:05:15.891 +00:00] [INF] [121] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "4. Validating Query Params". Stopped at "303445" ms
+[2026-08-08 08:05:29.505 +00:00] [INF] [77] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:06:06.590 +00:00] [INF] [71] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "5. Introduction to DTO". Stopped at "65408" ms
+[2026-08-08 08:06:27.621 +00:00] [INF] [71] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:07:49.311 +00:00] [INF] [76] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "5. Introduction to DTO". Stopped at "0" ms
+[2026-08-08 08:07:51.699 +00:00] [INF] [75] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:09:55.348 +00:00] [INF] [115] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "5. Introduction to DTO". Stopped at "178346" ms
+[2026-08-08 08:09:55.351 +00:00] [ERR] [87] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Unexpected end of request content". URL "POST" "/Sessions/Playing/Progress".
+[2026-08-08 08:10:05.990 +00:00] [INF] [87] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:10:18.339 +00:00] [INF] [87] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "6. Creating Our First DTO". Stopped at "10605" ms
+[2026-08-08 08:10:23.381 +00:00] [INF] [87] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:12:28.065 +00:00] [INF] [127] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "5. Introduction to DTO". Stopped at "178346" ms
+[2026-08-08 08:12:43.027 +00:00] [INF] [122] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:17:38.681 +00:00] [INF] [75] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "6. Creating Our First DTO". Stopped at "429054" ms
+[2026-08-08 08:17:55.638 +00:00] [INF] [57] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:18:01.805 +00:00] [INF] [71] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "6. Creating Our First DTO". Stopped at "431319" ms
+[2026-08-08 08:19:06.626 +00:00] [INF] [57] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 08:19:18.629 +00:00] [INF] [122] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2026-08-08 08:23:40.397 +00:00] [WRN] [67] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 08:23:40.410 +00:00] [INF] [67] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 08:28:13.429 +00:00] [INF] [113] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 08:28:24.204 +00:00] [INF] [55] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:28:29.122 +00:00] [INF] [60] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "6. Creating Our First DTO". Stopped at "432215" ms
+[2026-08-08 08:28:33.612 +00:00] [INF] [55] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:31:33.445 +00:00] [INF] [126] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "6. Creating Our First DTO". Stopped at "612480" ms
+[2026-08-08 08:32:16.734 +00:00] [INF] [107] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:35:54.645 +00:00] [INF] [122] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "7. Connecting DTO to Route Method". Stopped at "321713" ms
+[2026-08-08 08:36:06.849 +00:00] [INF] [77] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:38:24.165 +00:00] [INF] [105] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "7. Connecting DTO to Route Method". Stopped at "380675" ms
+[2026-08-08 08:38:47.751 +00:00] [INF] [127] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:38:56.940 +00:00] [INF] [71] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "7. Connecting DTO to Route Method". Stopped at "386596" ms
+[2026-08-08 08:39:02.562 +00:00] [INF] [75] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:40:02.440 +00:00] [INF] [108] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "7. Connecting DTO to Route Method". Stopped at "461824" ms
+[2026-08-08 08:40:12.556 +00:00] [INF] [68] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:42:04.079 +00:00] [INF] [108] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "8. Global Pipes and Avoiding Malicious Request". Stopped at "0" ms
+[2026-08-08 08:42:06.479 +00:00] [INF] [102] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:46:32.284 +00:00] [INF] [122] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "8. Global Pipes and Avoiding Malicious Request". Stopped at "198394" ms
+[2026-08-08 08:46:38.870 +00:00] [INF] [122] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:47:48.227 +00:00] [INF] [126] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "8. Global Pipes and Avoiding Malicious Request". Stopped at "265574" ms
+[2026-08-08 08:47:57.386 +00:00] [INF] [127] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:50:11.155 +00:00] [INF] [68] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "8. Global Pipes and Avoiding Malicious Request". Stopped at "330112" ms
+[2026-08-08 08:50:19.639 +00:00] [INF] [68] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:50:24.996 +00:00] [INF] [105] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "9. Converting to an Instance of DTO". Stopped at "3353" ms
+[2026-08-08 08:50:27.284 +00:00] [INF] [70] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:51:22.023 +00:00] [INF] [105] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "9. Converting to an Instance of DTO". Stopped at "90686" ms
+[2026-08-08 08:51:25.684 +00:00] [INF] [116] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:54:21.829 +00:00] [INF] [78] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "9. Converting to an Instance of DTO". Stopped at "181376" ms
+[2026-08-08 08:54:41.193 +00:00] [INF] [107] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 08:58:09.346 +00:00] [INF] [70] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "10. Using DTOs with Params". Stopped at "352767" ms
+[2026-08-08 08:58:15.367 +00:00] [INF] [78] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 09:02:24.570 +00:00] [INF] [126] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin for Android" "2.7.0" playing "11. Using Mapped Types To Avoid Code Duplication". Stopped at "425045" ms
+[2026-08-08 09:04:37.451 +00:00] [INF] [60] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 09:04:49.452 +00:00] [INF] [60] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2026-08-08 09:13:36.265 +00:00] [WRN] [60] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 09:13:36.285 +00:00] [INF] [60] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 10:33:25.452 +00:00] [INF] [52] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 10:33:33.797 +00:00] [INF] [52] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 10:41:59.448 +00:00] [INF] [121] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "1. Introduction To Inversion Of Control". Stopped at "621013" ms
+[2026-08-08 10:41:59.459 +00:00] [INF] [47] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "1. Introduction To Inversion Of Control". Stopped at "621013" ms
+[2026-08-08 10:41:59.497 +00:00] [INF] [71] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 10:47:49.486 +00:00] [INF] [71] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 10:51:37.483 +00:00] [INF] [49] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 10:55:25.482 +00:00] [INF] [52] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 10:59:13.483 +00:00] [INF] [56] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 11:05:11.442 +00:00] [INF] [51] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "2. Dependency Injection In NestJS". Stopped at "557226" ms
+[2026-08-08 11:05:11.453 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "2. Dependency Injection In NestJS". Stopped at "557226" ms
+[2026-08-08 11:05:11.507 +00:00] [INF] [123] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:08:23.671 +00:00] [INF] [116] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "3. Create a users Service". Stopped at "287701" ms
+[2026-08-08 11:08:23.682 +00:00] [INF] [51] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "3. Create a users Service". Stopped at "287701" ms
+[2026-08-08 11:08:23.901 +00:00] [INF] [54] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:10:16.365 +00:00] [WRN] [56] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 11:10:16.369 +00:00] [INF] [56] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 11:24:01.640 +00:00] [INF] [133] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 11:26:06.921 +00:00] [INF] [130] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/tutorials/nestjs-course"
+[2026-08-08 11:26:06.922 +00:00] [INF] [130] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-08-08 11:26:06.953 +00:00] [WRN] [130] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-08 11:26:06.966 +00:00] [WRN] [134] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-08-08 11:26:07.374 +00:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2026-08-08 11:26:07.449 +00:00] [INF] [134] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media/tutorials/nestjs-course"
+[2026-08-08 11:27:39.256 +00:00] [INF] [124] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "4. findall Users Method". Stopped at "322005" ms
+[2026-08-08 11:27:39.267 +00:00] [INF] [137] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "4. findall Users Method". Stopped at "322005" ms
+[2026-08-08 11:27:39.286 +00:00] [INF] [128] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:28:37.232 +00:00] [INF] [137] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "5. findOneById Users Method". Stopped at "86570" ms
+[2026-08-08 11:28:37.232 +00:00] [INF] [128] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "5. findOneById Users Method". Stopped at "86570" ms
+[2026-08-08 11:28:37.263 +00:00] [INF] [49] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:29:11.677 +00:00] [INF] [128] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "6. Practice Create a Posts Module". Stopped at "51072" ms
+[2026-08-08 11:29:11.680 +00:00] [INF] [52] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "6. Practice Create a Posts Module". Stopped at "51072" ms
+[2026-08-08 11:29:11.707 +00:00] [INF] [56] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:34:27.282 +00:00] [INF] [119] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "7. Solution Create a Posts Module". Stopped at "329898" ms
+[2026-08-08 11:34:29.197 +00:00] [INF] [78] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "7. Solution Create a Posts Module". Stopped at "0" ms
+[2026-08-08 11:34:29.229 +00:00] [INF] [78] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:36:17.444 +00:00] [INF] [119] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "8. Types Of Dependencies". Stopped at "126122" ms
+[2026-08-08 11:36:17.446 +00:00] [INF] [63] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "8. Types Of Dependencies". Stopped at "126122" ms
+[2026-08-08 11:36:17.487 +00:00] [INF] [78] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:38:59.364 +00:00] [INF] [123] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "9. Create a GET Posts Route With DTO". Stopped at "242005" ms
+[2026-08-08 11:38:59.377 +00:00] [INF] [105] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "9. Create a GET Posts Route With DTO". Stopped at "242005" ms
+[2026-08-08 11:38:59.402 +00:00] [INF] [63] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:40:13.413 +00:00] [INF] [70] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "10. Return Posts From Posts Service". Stopped at "110464" ms
+[2026-08-08 11:40:13.419 +00:00] [INF] [123] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "10. Return Posts From Posts Service". Stopped at "110464" ms
+[2026-08-08 11:40:13.454 +00:00] [INF] [105] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:43:34.556 +00:00] [INF] [105] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "11. Use Users Service Inside Posts Service". Stopped at "267562" ms
+[2026-08-08 11:43:34.588 +00:00] [INF] [51] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:43:34.718 +00:00] [INF] [116] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "11. Use Users Service Inside Posts Service". Stopped at "267562" ms
+[2026-08-08 11:43:57.454 +00:00] [INF] [116] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "12. Practice Create an Auth Module". Stopped at "33706" ms
+[2026-08-08 11:43:57.457 +00:00] [INF] [105] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "12. Practice Create an Auth Module". Stopped at "33706" ms
+[2026-08-08 11:43:57.494 +00:00] [INF] [105] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:45:21.451 +00:00] [INF] [70] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "13. Solution Create an Auth Module". Stopped at "125312" ms
+[2026-08-08 11:45:21.451 +00:00] [INF] [105] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "13. Solution Create an Auth Module". Stopped at "125312" ms
+[2026-08-08 11:45:21.489 +00:00] [INF] [51] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:51:20.074 +00:00] [INF] [116] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "14. Circular Dependency". Stopped at "536277" ms
+[2026-08-08 11:51:50.473 +00:00] [INF] [54] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:51:53.256 +00:00] [INF] [51] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "1. Documentation With NestJS". Stopped at "3005" ms
+[2026-08-08 11:51:55.600 +00:00] [INF] [116] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2026-08-08 11:58:25.670 +00:00] [INF] [49] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 12:02:13.664 +00:00] [INF] [52] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 12:06:01.668 +00:00] [INF] [87] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 12:10:25.666 +00:00] [INF] [115] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 12:14:13.666 +00:00] [INF] [56] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 12:18:01.666 +00:00] [INF] [54] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 12:22:25.664 +00:00] [INF] [110] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 12:26:07.953 +00:00] [INF] [111] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Media Segment Scan" Completed after 0 minute(s) and 0 seconds
+[2026-08-08 12:26:13.666 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 12:30:49.598 +00:00] [WRN] [112] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 12:30:49.600 +00:00] [INF] [112] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 12:31:51.113 +00:00] [INF] [114] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 12:36:15.144 +00:00] [INF] [130] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 12:40:03.140 +00:00] [INF] [114] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 12:41:08.508 +00:00] [WRN] [109] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 12:41:08.512 +00:00] [INF] [109] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 12:49:19.859 +00:00] [INF] [137] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2026-08-08 12:49:20.781 +00:00] [INF] [73] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-08-09 02:00:00.000 +00:00, which is 13:10:39.2188424 from now.
+[2026-08-08 13:03:58.368 +00:00] [INF] [61] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 13:04:41.150 +00:00] [INF] [108] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2026-08-08 13:04:41.199 +00:00] [INF] [108] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-08-08 13:04:41.199 +00:00] [INF] [108] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2026-08-08 13:07:22.387 +00:00] [INF] [57] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2026-08-08 13:07:22.420 +00:00] [WRN] [61] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 13:07:22.426 +00:00] [INF] [61] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 13:17:27.976 +00:00] [INF] [66] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 13:17:29.031 +00:00] [INF] [66] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.11.11" playing "1. Documentation With NestJS". Stopped at "76085" ms
+[2026-08-08 13:17:29.039 +00:00] [INF] [66] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 13:17:29.783 +00:00] [INF] [111] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 13:19:41.218 +00:00] [INF] [111] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed
+[2026-08-08 13:19:41.924 +00:00] [INF] [66] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" request
+[2026-08-08 13:23:18.955 +00:00] [WRN] [110] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "192.168.117.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2026-08-08 13:23:18.976 +00:00] [INF] [110] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.117.1" closed

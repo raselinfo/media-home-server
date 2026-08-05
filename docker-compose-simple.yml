@@ -1,0 +1,16 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+    container_name: jellyfin
+    ports:
+      - 8096:8096/tcp
+      - 7359:7359/udp
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - ./media:/media
+    restart: 'unless-stopped'
+    environment:
+      - JELLYFIN_PublishedServerUrl=http://192.168.0.113:8096
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'

@@ -25,9 +25,9 @@
   <TonemappingParam>0</TonemappingParam>
   <VppTonemappingBrightness>16</VppTonemappingBrightness>
   <VppTonemappingContrast>1</VppTonemappingContrast>
-  <H264Crf>24</H264Crf>
+  <H264Crf>23</H264Crf>
   <H265Crf>28</H265Crf>
-  <EncoderPreset>superfast</EncoderPreset>
+  <EncoderPreset xsi:nil="true" />
   <DeinterlaceDoubleRate>false</DeinterlaceDoubleRate>
   <DeinterlaceMethod>yadif</DeinterlaceMethod>
   <EnableDecodingColorDepth10Hevc>true</EnableDecodingColorDepth10Hevc>
